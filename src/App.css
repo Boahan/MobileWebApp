@@ -1,0 +1,51 @@
+#App {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* styles.css */
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.footer-icons svg {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+/* Header.css */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding-right: 30px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  border-radius: 50%;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
